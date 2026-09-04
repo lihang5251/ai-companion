@@ -15,8 +15,8 @@
 ### 1. 克隆仓库
 
 ```bash
-git clone https://github.com/lihang5251/ai-companion.git
-cd ai-companion
+git clone https://github.com/lihang5251/streamlit-ai-chat.git
+cd streamlit-ai-chat
 ```
 
 ### 2. 安装依赖
@@ -43,7 +43,7 @@ export DEEPSEEK_API_KEY="你的API密钥"
 
 ### 4. 修改密码
 
-打开 `03.AI智能伴侣.py`，找到第 36 行，把 `A114514` 改成你自己的密码：
+打开 `AI Chat.py`，找到第 36 行，把 `A114514` 改成你自己的密码：
 
 ```python
 PASSWORD = "你的密码"
@@ -52,7 +52,7 @@ PASSWORD = "你的密码"
 ### 5. 运行
 
 ```bash
-streamlit run 03.AI智能伴侣.py
+streamlit run Ai Chat.py
 ```
 
 浏览器打开 `http://localhost:8501` 即可使用。
@@ -89,7 +89,7 @@ streamlit run 03.AI智能伴侣.py
 ## 📁 项目结构
 
 ```
-├── 03.AI智能伴侣.py    # 主程序
+├── AI Chat.py    # 主程序
 ├── sessions/           # 会话存档（自动生成）
 ├── resources/          # 资源文件（logo 等）
 └── README.md
