@@ -1,4 +1,4 @@
-# 🤖 AI Chat — 你的 AI 智能伴侣
+# 🤖 AI Chat — 你的 AI 智能聊天体
 
 基于 **Streamlit** + **DeepSeek** 打造的 AI 聊天应用，支持自定义人设、关系、回复风格，带会话管理和密码保护。
 
